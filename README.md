@@ -1,36 +1,45 @@
-# Basic Mod
+# Bleye's Tamamo Mod
 
-This is an empty Slay the Spire mod + a modding tutorial.
-
-This tutorial will help with setup and the basics of Slay the Spire modding, but it will not teach you Java. If you know nothing of Java or programming in general, you are strongly recommended to look up a free online course and do at least some of it. It is possible to do modding with almost no proper knowledge, but it will make things much more difficult.
+Hi if you're looking at this that means you're one of the lucky few that get to help alice on her project. yippee!
 
 ---
 
-## Check the wiki to get started:
+### stuff CURRENTLY implemented!!
 
-https://github.com/Alchyr/BasicMod/wiki
+
+- Brand new MP mechanic (currently a power should be a new resource meter)
+- Unique Starting Relic to interact with the MP system
+- ~40 new cards exclusively to Tamamo
+- every card has art (or screenshots) from official Fate works. mostly the Extra and Extella games.
+- Also there's new tamamo-specific common and boss relics so look out for those.
+- Three-ish "archetypes" unique-ish to the character. 
+  - new "Curse Art" cards that scale with a new Arts Boost system and use the new MP mechanic.
+  - a series of cards that interact with Slay the Spire's base game Curse cards in exciting ways
+  - or you can just forget all that and try to dial up your strength and dexterity lmao
+
+---
+### stuff that alice WILL implement
+
+- ~35 more cards to take Tamamo up to every other character's card total of 75
+- also like 8 more relics to also line up with every other character too
+- another "archetype" of cards based around tamamo's *Noble Phantasm* ooh so cool
+- making new animations and sounds is like a long term goal it's gonna be a pain in the butt im sure
+
+---
+### what alice needs from YOU my dear viewer
+so like obviously this mod is gonna be unbalanced like crazy. what i need from YOU is to think about the flaws of this mod and tell me
+
+- Is [card] too strong? too weak?
+- Is [card] too Energy (or MP) expensive?
+- Is [mechanic] balanced? is it too easy to scale? or too hard?
+- What new cards does Tamamo need? Does she need more block cards? draw cards? energy gain cards? damage cards?
+- Do cards need to change rarity? Should a Common really be Uncommon? Should an Uncommon be a Rare?
+- or honestly if something just feels off that's good info too and i can take a look at it
+
+visuals and sounds are long-term goals so if something SUCKS. please tell me because i might make it a priority.
 
 ---
 
-## Know what you're doing?
-
-You can still use this mod as a base, or you could use another template like https://github.com/DarkVexon/ProTemplate
-
-You can find more options in the pins of the #modding-technical channel in the Slay the Spire discord server.
-
----
-
-### Some HD Slay the Spire art assets (courtesy of Gremious, creator of DefaultMod):
-
-Includes:
-- Empty Relic Template feat. empty bottle
-- Empty Card Template
-- Color-Changable cardback
-- A couple of HD Monster vectors (Louse, Nob, Sentry, Sneaky Gremlin)
-- A coupe of HD items (J.A.X., A Coin)
-- 2 people silhouettes
-- A curse Background
-
-https://github.com/Gremious/StS-DefaultModBase#some-hd-slay-the-spire-art-assets
-
----
+## anyway how to install:
+ask my girlfriend im way out of my depth lmao
+she'll write a guide on how to do it eventually.
