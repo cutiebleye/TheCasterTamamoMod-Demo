@@ -1,0 +1,221 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+
+  "${modID}:CasterCombo": {
+    "NAME": "Caster's Combo",
+    "DESCRIPTION": "When you deal damage 3 times in a row without taking any, NL add an Extra Turn to your hand."
+  },
+
+  "${modID}:ExtraTurn": {
+    "NAME": "Extra Turn",
+    "DESCRIPTION": "Deal !D! damage. NL Restore !manaGain! ${modID}:MP. NL Exhaust."
+  },
+
+  "${modID}:FlameFan": {
+    "NAME": "Flame Fan",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage to all enemies. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:ArtsBoost": {
+    "NAME": "Arts Boost",
+    "DESCRIPTION": "Boosts the damage and Block of your ${modID}:Curse_Arts."
+  },
+
+  "${modID}:ArtsDeboost": {
+    "NAME": "Arts Deboost",
+    "DESCRIPTION": "Reduces the damage and Block of your ${modID}:Curse_Arts."
+  },
+
+  "${modID}:VoidCleft": {
+    "NAME": "Curse: Void Cleft",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage. NL Scales !M! times with ${modID}:Arts_Boost. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:Break": {
+    "NAME": "Break",
+    "DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage."
+  },
+
+  "${modID}:MyRoom": {
+    "NAME": "My Room",
+    "DESCRIPTION": "Gain [E]. NL Costs !manaCost! ${modID}:MP.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:AphoticCave": {
+    "NAME": "Mantra: Aphotic Cave",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Gain !B! Block. NL Restore ${modID}:MP equal to damage blocked this turn. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:ZeroOrigin": {
+    "NAME": "Zero Origin",
+    "DESCRIPTION": "Gain !M! ${modID}:Arts_Boost. NL Lose 20% of your Total HP at the start of each turn. NL Heal it all back at the end of combat."
+  },
+
+  "${modID}:SoulAlteration": {
+    "NAME": "Soul Alteration",
+    "DESCRIPTION": "Gain X ${modID}:Arts_Boost.",
+    "UPGRADE_DESCRIPTION": "Gain X+1 ${modID}:Arts_Boost."
+  },
+
+  "${modID}:sPunch": {
+    "NAME": "S Punch",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable."
+  },
+
+  "${modID}:SecretGarden": {
+    "NAME": "Caster's Secret Garden",
+    "DESCRIPTION": "Receive !M! Vulnerable. NL Uncap your Maximum ${modID}:MP."
+  },
+
+  "${modID}:LandOfEternalBane": {
+    "NAME": "Land of Eternal Bane",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage. NL Apply 9 Poison that is affected !M! times by ${modID}:Arts_Boost. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:Piggyback": {
+    "NAME": "Piggyback",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! Card.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! Cards."
+  },
+
+  "${modID}:FoxiestWife": {
+    "NAME": "The Foxiest Wife",
+    "DESCRIPTION": "Gain !B! Block. NL Restore !manaGain! ${modID}:MP."
+  },
+
+  "${modID}:RefreshingDrink": {
+    "NAME": "Refreshing Drink",
+    "DESCRIPTION": "Restore !manaGain! ${modID}:MP. NL Exhaust."
+  },
+
+  "${modID}:FrigidStorm": {
+    "NAME": "Frigid Storm",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage to a random enemy !M! times. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:FieryBurst": {
+    "NAME": "Fiery Burst",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage to an enemy !M! times. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:ChaoticWind": {
+    "NAME": "Chaotic Wind",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage to all enemies !M! times. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:TheFieldsOfNasu": {
+    "NAME": "The Fields of Nasu",
+    "DESCRIPTION": "Whenever you draw a Curse card, Exhaust it and gain 1 ${modID}:Arts_Boost."
+  },
+
+  "${modID}:CurseMaster": {
+    "NAME": "Curse Master",
+    "DESCRIPTION": "Whenever you draw a Curse card, draw 1 card and restore 1 ${modID}:MP."
+  },
+
+  "${modID}:AmaterasuDisdain": {
+    "NAME": "Amaterasu's Disdain",
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL At the end of your turn, lose 2 ${modID}:MP."
+  },
+
+  "${modID}:BestialSky": {
+    "NAME": "Mantric: Bestial Sky",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Gain !M! ${modID}:Arts_Boost. NL At the end of this turn, lose !M! ${modID}:Arts_Boost. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:SpiritTheft": {
+    "NAME": "Spirit Theft",
+    "DESCRIPTION": "Whenever you deal damage to an enemy, restore !M! ${modID}:MP."
+  },
+
+  "${modID}:BreathOfTheSoul": {
+    "NAME": "Breath of the Soul",
+    "DESCRIPTION": "At the end of your turn, restore !M! ${modID}:MP."
+  },
+
+  "${modID}:MercifulSky": {
+    "NAME": "Mantric: Merciful Sky",
+    "DESCRIPTION": "Next turn, your ${modID}:Curse_Arts deal double damage. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:HighExposure": {
+    "NAME": "High Exposure*",
+    "DESCRIPTION": "Discard all Curse cards in your hand. NL Draw 1 card, plus 1 card for every Curse discarded this way.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Discard all Curse cards in your hand. NL Draw 1 card, plus 1 card for every Curse discarded this way."
+  },
+
+  "${modID}:NinefoldConfections": {
+    "NAME": "Ninefold Confections",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Gain !B! Block !M! times. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:ChocolateScrewdriver": {
+    "NAME": "Chocolate Screwdriver",
+    "DESCRIPTION": "Lose !M! ${modID}:Arts_Boost. NL Gain !M! Strength. NL Gain !M! Dexterity."
+  },
+
+  "${modID}:KickCombo": {
+    "NAME": "Kick Combo",
+    "DESCRIPTION": "Deal !D! damage to an enemy !M! times."
+  },
+
+  "${modID}:FrigidHeaven": {
+    "NAME": "Curse: Frigid Heaven",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage. NL If the enemy intends to attack, it loses !M! Strength. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:FieryHeaven": {
+    "NAME": "Curse: Fiery Heaven",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage. NL If the enemy intends to debuff you, gain !M! Artifact. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:ChaosHeaven": {
+    "NAME": "Curse: Chaos Heaven",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage. NL If the enemy intends to defend, it gains !M! Vulnerable. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:BeachFlowerCard": {
+    "NAME": "Beach Flower",
+    "DESCRIPTION": "Your Basic Strikes and your Basic Defends become twice as effective."
+  },
+
+  "${modID}:CurseThunder": {
+    "NAME": "Curse: Thunder",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage and apply Slow to ALL enemies. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:GoldenPoem": {
+    "NAME": "Golden Poem",
+    "DESCRIPTION": "Gain [E]. NL Draw !M! cards. NL Recover !manaGain! ${modID}:MP. NL Exhaust."
+  },
+
+  "${modID}:OrchidWoods": {
+    "NAME": "Orchid Woods",
+    "DESCRIPTION": "Recover ALL of your ${modID}:MP. NL Exhaust."
+  },
+
+  "${modID}:CastersCloset": {
+    "NAME": "Caster's Closet",
+    "DESCRIPTION": "Gain !M! Maximum ${modID}:MP."
+  }
+}

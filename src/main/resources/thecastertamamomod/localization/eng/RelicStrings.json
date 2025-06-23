@@ -1,0 +1,44 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+
+  "${modID}:TamamoStartingRelic": {
+    "NAME": "Yata no Kagami",
+    "FLAVOR": "Tamamo's mirror, granted to her by Amaterasu.",
+    "DESCRIPTIONS": [
+      "Gain #b", " additional Max #yMP for each defeated Elite and Boss."
+    ]
+  },
+
+  "${modID}:GoldenFur": {
+    "NAME": "Golden Fox Fur",
+    "FLAVOR": "A perpetual reminder of Tamamo's origin and destiny.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of each turn. Upon pickup, obtain a unique #rCurse.",
+      "The Goddess Smirks...",
+      "Skip Rewards",
+      "Close"
+    ]
+  },
+
+  "${modID}:TamamosFanClub": {
+    "NAME": "Tamamo's Fan Club",
+    "FLAVOR": "Tamamo's dream manual on how to become the ideal wife. However, it fails to write about getting a husband in the first place.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b1 #yArts #yBoost."
+    ]
+  },
+
+  "${modID}:TamamoUpgradeRelic": {
+    "NAME": "Hachiyo no Kagami",
+    "FLAVOR": "Tamamo's mirror. It has grown on this journey alongside her.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw #b", " additional card for every #b5 defeated Elites and Bosses."
+    ]
+  }
+}

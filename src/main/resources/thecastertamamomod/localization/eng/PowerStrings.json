@@ -1,0 +1,107 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+
+  "${modID}:CasterComboPower": {
+    "NAME": "Caster's Combo",
+    "DESCRIPTIONS": [
+      "When you deal direct damage #b"," more times in a row without losing HP, add an Extra Turn to your hand."
+
+    ]
+  },
+
+  "${modID}:ManaPower": {
+    "NAME": "Tamamo's MP",
+    "DESCRIPTIONS": [
+      "Tamamo currently has #b",
+        " Mana to spend on her #yCurse #yArts. NL Tamamo's maximum #yMP is currently #b", "."
+
+    ]
+  },
+
+  "${modID}:ArtsBoostPower": {
+    "NAME": "Arts Boost",
+    "DESCRIPTIONS": [
+      "Increases the potency of Tamamo's #yCurse #yArts by #b",
+      " , increasing both damage and #yBlock.",
+      "Decreases the potency of Tamamo's #yCurse #yArts by #b",
+      " , decreasing both damage and #yBlock."
+
+    ]
+  },
+
+  "${modID}:AphoticCavePower": {
+    "NAME": "Aphotic Cave",
+    "DESCRIPTIONS": [
+      "Recover #yMP equal to damage Blocked this turn."
+    ]
+  },
+
+  "${modID}:MythMysticCodePower": {
+    "NAME": "Mythological Mystic Code of the Sun",
+    "DESCRIPTIONS": [
+      "Lose ", "% of your HP at the beginning of each turn. Recover it all at the end of combat."
+    ]
+  },
+
+  "${modID}:TheFieldsOfNasuPower": {
+    "NAME": "The Fields of Nasu",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yCurse card, #yExhaust it and gain ", " #yArts #yBoost."
+    ]
+  },
+
+  "${modID}:CurseMasterPower": {
+    "NAME": "Curse Master",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #rCurse card, draw 1 card and recover ", " #yMP."
+    ]
+  },
+
+  "${modID}:LoseArtsPower": {
+    "NAME": "Arts Down",
+    "DESCRIPTIONS": [
+      "At the end of your turn, lose ", " #yArts #yBoost."
+    ]
+  },
+
+  "${modID}:SpiritTheftPower": {
+    "NAME": "Spirit Theft",
+    "DESCRIPTIONS": [
+      "Whenever you deal damage to an enemy, recover ", " #yMP."
+    ]
+  },
+
+  "${modID}:BreathOfTheSoulPower": {
+    "NAME": "Breath of the Soul",
+    "DESCRIPTIONS": [
+      "At the end of your turn, recover ", " #yMP."
+    ]
+  },
+
+  "${modID}:MercifulSkyPower": {
+    "NAME": "Mantric: Merciful Sky",
+    "DESCRIPTIONS": [
+      "Your #yCurse #yArts deal Double Damage next turn.",
+      "Your #yCurse #yArts deal Double Damage for the next ", " turns."
+    ]
+  },
+
+  "${modID}:DoubleCurseArtsPower": {
+    "NAME": "Mantric: Merciful Sky",
+    "DESCRIPTIONS": [
+      "#yCurse #yArts deal Double Damage for ", " turn.",  " turns."
+    ]
+  },
+
+  "${modID}:BeachFlowerPower": {
+    "NAME": "Beach Flower: EX",
+    "DESCRIPTIONS": [
+      "Your Basic Strikes and Defends are #b", " times as effective."
+    ]
+  }
+}
