@@ -23,6 +23,7 @@ public class CasterComboPower extends BasePower {
     //For a power to actually decrease/go away on its own they do it themselves.
     //Look at powers that do this like VulnerablePower and DoubleTapPower.
     //todo make better icon
+    //todo make it scale per CARD played and not per hit
 
     public CasterComboPower(AbstractCreature owner, int amount) {
         super(POWER_ID, TYPE, TURN_BASED, owner, amount);

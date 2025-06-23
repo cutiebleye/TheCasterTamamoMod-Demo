@@ -23,19 +23,19 @@ public class KickCombo extends ManaCard {
     );
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int DAMAGE = 2;
+    private static final int DAMAGE = 3;
     private static final int UPG_DAMAGE = 1;
     private static final int MANA_COST = 5;
     private static final int MANA_GAIN = 0;
     private static final int UPG_MANA_COST = 0;
     private static final int UPG_MANA_GAIN = 0;
-    private static final int HIT_AMOUNT = 5;
-    private static final int UPG_HIT_AMOUNT = 2;
+    private static final int HIT_AMOUNT = 4;
+    private static final int UPG_HIT_AMOUNT = 1;
 
     public KickCombo() {
         super(ID, info);
-        setDamage(DAMAGE, UPG_DAMAGE);
-        setMagic(HIT_AMOUNT);
+        setDamage(DAMAGE);
+        setMagic(HIT_AMOUNT, UPG_HIT_AMOUNT);
 
     }
 

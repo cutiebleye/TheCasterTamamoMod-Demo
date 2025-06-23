@@ -24,14 +24,14 @@ public class NinefoldConfections extends ManaCard {
     );
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int BLOCK = 3;
+    private static final int BLOCK = 4;
     private static final int UPG_BLOCK = 4;
     private static final int MANA_COST = 3;
     private static final int MANA_GAIN = 5;
     private static final int UPG_MANA_COST = 0;
     private static final int UPG_MANA_GAIN = 3;
-    private static final int HIT_AMOUNT = 3;
-    private static final int UPG_HIT_AMOUNT = 2;
+    private static final int HIT_AMOUNT = 2;
+    private static final int UPG_HIT_AMOUNT = 1;
 
 
     public NinefoldConfections() {
