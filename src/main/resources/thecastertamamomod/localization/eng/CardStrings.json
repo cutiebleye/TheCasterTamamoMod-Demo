@@ -217,5 +217,10 @@
   "${modID}:CastersCloset": {
     "NAME": "Caster's Closet",
     "DESCRIPTION": "Gain !M! Maximum ${modID}:MP."
+  },
+
+  "${modID}:NPTestCard": {
+    "NAME": "Tamamo NP Test",
+    "DESCRIPTION": "this card is for testing tamamo's np lol"
   }
 }

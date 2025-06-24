@@ -103,5 +103,12 @@
     "DESCRIPTIONS": [
       "Your Basic Strikes and Defends are #b", " times as effective."
     ]
+  },
+
+  "${modID}:CasterNPPower": {
+    "NAME": "Eightfold Blessings of Amaterasu on the Weight Stone under the Sunlit Watery Heavens",
+    "DESCRIPTIONS": [
+      "Your #yCurse #yArts cost 0 #yEnergy and #yMP for one turn."
+    ]
   }
 }
