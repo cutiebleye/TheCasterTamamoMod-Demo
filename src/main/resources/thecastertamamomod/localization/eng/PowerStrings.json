@@ -110,5 +110,19 @@
     "DESCRIPTIONS": [
       "Your #yCurse #yArts cost 0 #yEnergy and #yMP for one turn."
     ]
+  },
+
+  "${modID}:NoblePhantasmChargePower": {
+    "NAME": "Noble Phantasm Charge",
+    "DESCRIPTIONS": [
+      "When you obtain #b", " more stacks of Noble Phantasm Charge, add Caster's Noble Phantasm to your hand."
+    ]
+  },
+
+  "${modID}:CasterNPExhaustedPower": {
+    "NAME": "Noble Phantasm Exhausted",
+    "DESCRIPTIONS": [
+      "You can no longer gain Noble Phantasm Charge nor Caster's Noble Phantasm."
+    ]
   }
 }

@@ -49,5 +49,15 @@
       "mp"
     ],
     "DESCRIPTION": "A resource that allows you to play certain cards. Automatically refills at the beginning of combat."
+  },
+
+  {
+    "ID": "eightfoldBlessingsOfAmaterasu",
+    "PROPER_NAME": "Eightfold Blessings Of Amaterasu",
+    "NAMES": [
+      "Eightfold Blessings Of Amaterasu",
+      "Eightfold_Blessings_Of_Amaterasu"
+    ],
+    "DESCRIPTION": "The embodiment of Caster's power that allows her to use her Curse Arts at zero Energy or MP cost."
   }
 ]

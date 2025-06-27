@@ -135,7 +135,7 @@
 
   "${modID}:AmaterasuDisdain": {
     "NAME": "Amaterasu's Disdain",
-    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL At the end of your turn, lose 2 ${modID}:MP."
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL At the end of your turn, lose 3 ${modID}:MP."
   },
 
   "${modID}:BestialSky": {
@@ -219,8 +219,14 @@
     "DESCRIPTION": "Gain !M! Maximum ${modID}:MP."
   },
 
-  "${modID}:NPTestCard": {
-    "NAME": "Tamamo NP Test",
-    "DESCRIPTION": "this card is for testing tamamo's np lol"
+  "${modID}:CasterNoblePhantasm": {
+    "NAME": "Caster's Noble Phantasm",
+    "DESCRIPTION": "Retain. NL All of your ${modID}:Curse_Arts cost 0 [E] and ${modID}:MP for one turn. NL You cannot gain the power of your Noble Phantasm for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Retain. NL All of your ${modID}:Curse_Arts cost 0 [E] and ${modID}:MP for one turn."
+  },
+
+  "${modID}:SunlitDroplet": {
+    "NAME": "Sunlit Droplet",
+    "DESCRIPTION": "Gain 1 Noble Phantasm Charge."
   }
 }
