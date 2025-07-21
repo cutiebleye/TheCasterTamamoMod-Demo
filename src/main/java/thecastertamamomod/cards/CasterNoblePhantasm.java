@@ -22,7 +22,10 @@ public class CasterNoblePhantasm extends BaseCard {
 
 
     public CasterNoblePhantasm() {
-        super(ID, info); //Pass the required information to the BaseCard constructor.
+
+        super(ID, info);
+        this.retain = true;
+        //Pass the required information to the BaseCard constructor.
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

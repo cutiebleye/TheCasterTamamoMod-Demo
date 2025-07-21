@@ -38,6 +38,10 @@ public class NoblePhantasmChargePower extends BasePower {
             this.amount = 9;
         }
 
+        if (this.amount <= 0) {
+            this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, POWER_ID));
+        }
+
         if (owner.hasPower(CasterNPExhaustedPower.POWER_ID)){
             this.amount = 0;
             this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner,POWER_ID));
@@ -64,6 +68,7 @@ public class NoblePhantasmChargePower extends BasePower {
             this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, POWER_ID));
         }
     }
+    //todo fix and make stack properly
 
     /* @Override
     public void onApplyPower(AbstractPower power, AbstractCreature target, AbstractCreature source) {

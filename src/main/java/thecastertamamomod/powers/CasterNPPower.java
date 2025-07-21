@@ -38,7 +38,7 @@ public class CasterNPPower extends BasePower {
             if (((ManaCard) card).isCurseArt) {
                 card.setCostForTurn(-9);
                 ((ManaCard) card).manaCost = 0;
-                //todo mana cost isnt going down fix that
+                //todo mana cost COLOR is red make it green
             }
         }
     }

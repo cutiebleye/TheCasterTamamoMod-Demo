@@ -16,6 +16,7 @@ public abstract class ManaCard extends BaseCard {
     public int baseManaCost;
     public int baseManaGain;
     public boolean isCurseArt;
+    public int manaCostForTurn;
 
     public ManaCard(String ID, CardStats info) {
         super(ID, info);
@@ -98,6 +99,13 @@ public abstract class ManaCard extends BaseCard {
     }
 
     protected abstract void useManaCard(AbstractPlayer p, AbstractMonster m);
+
+    @Override
+    public void resetAttributes() {
+        super.resetAttributes();
+        this.manaCost = this.baseManaCost;
+
+    }
 
     @Override
     public void initializeDescription() {

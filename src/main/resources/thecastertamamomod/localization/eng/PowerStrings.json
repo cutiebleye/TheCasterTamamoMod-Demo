@@ -124,5 +124,19 @@
     "DESCRIPTIONS": [
       "You can no longer gain Noble Phantasm Charge nor Caster's Noble Phantasm."
     ]
+  },
+
+  "${modID}:FoxNightsDreamPower": {
+    "NAME": "A Fox Night's Dream",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #rCurse card, gain ", " #yBlock."
+    ]
+  },
+
+  "${modID}:HappyEndingPower": {
+    "NAME": "Happy Ending",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain ", " #yNoble #yPhantasm #yCharge."
+    ]
   }
 }

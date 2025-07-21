@@ -228,5 +228,21 @@
   "${modID}:SunlitDroplet": {
     "NAME": "Sunlit Droplet",
     "DESCRIPTION": "Gain 1 Noble Phantasm Charge."
+  },
+
+  "${modID}:GoldenSunlight": {
+    "NAME": "Golden Sunlight",
+    "DESCRIPTION": "Gain !M! Noble Phantasm Charge. NL Exhaust."
+  },
+
+  "${modID}:FoxNightsDream": {
+    "NAME": "A Fox Night's Dream",
+    "DESCRIPTION": "Whenever you draw a Curse card, gain 6 Block.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a Curse card, gain 4 Block."
+  },
+
+  "${modID}:HappyEnding": {
+    "NAME": "Happy Ending",
+    "DESCRIPTION": "At the start of your turn, gain 3 Noble Phantasm Charge."
   }
 }
