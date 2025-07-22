@@ -244,5 +244,10 @@
   "${modID}:HappyEnding": {
     "NAME": "Happy Ending",
     "DESCRIPTION": "At the start of your turn, gain 3 Noble Phantasm Charge."
+  },
+
+  "${modID}:EightSoulCleanse": {
+    "NAME": "Eight Soul Cleanse",
+    "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage !M! times to ALL enemies. NL Costs !manaCost! ${modID}:MP."
   }
 }

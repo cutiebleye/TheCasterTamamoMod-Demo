@@ -52,7 +52,7 @@ public class FieryHeaven extends ManaCard {
 
     @Override
     protected void useManaCard(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new VFXAction(p, new ScreenOnFireEffect(), 0.25F));
+        AbstractDungeon.actionManager.addToBottom(new VFXAction(p, new ScreenOnFireEffect(), 0.1F));
         this.addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE));
         this.addToBot(new FieryHeavenAction(this.magicNumber, m, p));
     }
