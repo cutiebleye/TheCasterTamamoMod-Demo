@@ -30,7 +30,7 @@ public class EightSoulCleanse extends ManaCard {
     );
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int DAMAGE = 10;
+    private static final int DAMAGE = 9;
     private static final int UPG_DAMAGE = 2;
     private static final int MANA_COST = 99;
     private static final int MANA_GAIN = 0;
@@ -41,7 +41,7 @@ public class EightSoulCleanse extends ManaCard {
 
     public EightSoulCleanse() {
         super(ID, info);
-        setDamage(DAMAGE, UPG_DAMAGE);
+        setDamage(DAMAGE);
         setManaCost(MANA_COST);
         setMagic(HIT_AMOUNT);
 
@@ -62,5 +62,13 @@ public class EightSoulCleanse extends ManaCard {
                 this.addToBot(new DamageAllEnemiesAction(p, this.multiDamage, this.damageType, AbstractGameAction.AttackEffect.BLUNT_LIGHT));
             }
         }
+    }
+
+    public void upgrade() {
+        if (!this.upgraded) {
+            this.upgradeName();
+            this.upgradeBaseCost(3);
+        }
+
     }
 }

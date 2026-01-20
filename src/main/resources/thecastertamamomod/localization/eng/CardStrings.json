@@ -238,7 +238,7 @@
   "${modID}:FoxNightsDream": {
     "NAME": "A Fox Night's Dream",
     "DESCRIPTION": "Whenever you draw a Curse card, gain 6 Block.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a Curse card, gain 4 Block."
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you draw a Curse card, gain 6 Block."
   },
 
   "${modID}:HappyEnding": {
@@ -249,5 +249,10 @@
   "${modID}:EightSoulCleanse": {
     "NAME": "Eight Soul Cleanse",
     "DESCRIPTION": "${modID}:Curse_Art. NL Deal !D! damage !M! times to ALL enemies. NL Costs !manaCost! ${modID}:MP."
+  },
+
+  "${modID}:MoonCruxForm": {
+    "NAME": "Moon Crux Form",
+    "DESCRIPTION": "Gain !M! Strength and !M! Dexterity for each Curse card in your deck."
   }
 }

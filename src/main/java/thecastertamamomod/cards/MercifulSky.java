@@ -42,4 +42,11 @@ public class MercifulSky extends ManaCard {
     protected void useManaCard(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new ApplyPowerAction(p, p, new MercifulSkyPower(p, 1), 1));
     }
+
+    public void upgrade() {
+        if (!this.upgraded) {
+            this.upgradeName();
+            this.upgradeBaseCost(0);
+        }
+    }
 }

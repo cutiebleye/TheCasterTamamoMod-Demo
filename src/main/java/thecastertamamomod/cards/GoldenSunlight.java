@@ -32,13 +32,14 @@ public class GoldenSunlight extends ManaCard {
         NoblePhantasmChargePower.stackIfApplicable(p, magicNumber);
     }
 
-    public void upgrade() {
-      /*  if (!this.upgraded) {
+   /* public void upgrade() {
+      if (!this.upgraded) {
             this.upgradeName();
             this.upgradeBaseCost(2);
-        } */
+        }
 
     }
+    */
 
     @Override
     public AbstractCard makeCopy() { //Optional
