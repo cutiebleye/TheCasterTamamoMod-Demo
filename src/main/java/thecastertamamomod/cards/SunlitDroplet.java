@@ -27,6 +27,7 @@ public class SunlitDroplet extends ManaCard {
     }
 
     public void useManaCard(AbstractPlayer p, AbstractMonster m) {
+
         NoblePhantasmChargePower.stackIfApplicable(p, 1);
     }
 

@@ -254,5 +254,10 @@
   "${modID}:MoonCruxForm": {
     "NAME": "Moon Crux Form",
     "DESCRIPTION": "Gain !M! Strength and !M! Dexterity for each Curse card in your deck."
+  },
+
+  "${modID}:AFoxsComfortCard": {
+    "NAME": "A Fox's Comfort",
+    "DESCRIPTION": "Whenever you play a ${modID}:Curse_Art, gain !M! Noble Phantasm Charge."
   }
 }

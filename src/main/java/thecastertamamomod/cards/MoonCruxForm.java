@@ -25,7 +25,7 @@ public class MoonCruxForm extends BaseCard {
 
     private static final int powersAmount = 2;
     private static final int UPG_powersAmount = 1;
-    private static int curseAmount = 0;
+
 
     public MoonCruxForm() {
         super(ID, info); //Pass the required information to the BaseCard constructor.
@@ -34,7 +34,7 @@ public class MoonCruxForm extends BaseCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-
+        int curseAmount = 0;
         for(AbstractCard c : AbstractDungeon.player.masterDeck.group) {
             if (c.type == CardType.CURSE) {
                 ++curseAmount;
@@ -45,8 +45,6 @@ public class MoonCruxForm extends BaseCard {
             this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, (curseAmount * this.magicNumber)), (curseAmount * this.magicNumber)));
             this.addToBot(new ApplyPowerAction(p, p, new DexterityPower(p, (curseAmount * this.magicNumber)), (curseAmount * this.magicNumber)));
         }
-
-        curseAmount = 0;
 
     }
 

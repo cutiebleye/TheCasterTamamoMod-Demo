@@ -69,6 +69,5 @@ public class EightSoulCleanse extends ManaCard {
             this.upgradeName();
             this.upgradeBaseCost(3);
         }
-
     }
 }

@@ -138,5 +138,12 @@
     "DESCRIPTIONS": [
       "At the start of your turn, gain ", " #yNoble #yPhantasm #yCharge."
     ]
+  },
+
+  "${modID}:AFoxsComfortPower": {
+    "NAME": "A Fox's Comfort",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yCurse #yArt, gain ", " #yNoble #yPhantasm #yCharge."
+    ]
   }
 }
