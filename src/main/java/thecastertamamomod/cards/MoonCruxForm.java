@@ -9,6 +9,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.powers.HappyEndingPower;
+import thecastertamamomod.powers.MoonCruxFormPower;
 import thecastertamamomod.util.CardStats;
 
 
@@ -23,7 +25,7 @@ public class MoonCruxForm extends BaseCard {
 
     );
 
-    private static final int powersAmount = 2;
+    private static final int powersAmount = 1;
     private static final int UPG_powersAmount = 1;
 
 
@@ -34,18 +36,7 @@ public class MoonCruxForm extends BaseCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int curseAmount = 0;
-        for(AbstractCard c : AbstractDungeon.player.masterDeck.group) {
-            if (c.type == CardType.CURSE) {
-                ++curseAmount;
-            }
-        }
-
-        if (curseAmount > 0 ) {
-            this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, (curseAmount * this.magicNumber)), (curseAmount * this.magicNumber)));
-            this.addToBot(new ApplyPowerAction(p, p, new DexterityPower(p, (curseAmount * this.magicNumber)), (curseAmount * this.magicNumber)));
-        }
-
+        this.addToBot(new ApplyPowerAction(p, p, new MoonCruxFormPower(p, magicNumber)));
     }
 
     @Override

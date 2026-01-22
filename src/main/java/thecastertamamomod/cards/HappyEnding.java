@@ -27,7 +27,6 @@ public class HappyEnding extends ManaCard {
 
     public void useManaCard(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new ApplyPowerAction(p, p, new HappyEndingPower(p, 3)));
-
     }
 
     public void upgrade() {

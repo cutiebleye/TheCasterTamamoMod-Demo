@@ -145,5 +145,12 @@
     "DESCRIPTIONS": [
       "Whenever you play a #yCurse #yArt, gain ", " #yNoble #yPhantasm #yCharge."
     ]
+  },
+
+  "${modID}:MoonCruxFormPower": {
+    "NAME": "Moon Crux Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b", " #yStrength and #yDexterity for each #rCurse in your deck."
+    ]
   }
 }
