@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.powers.ArtsBoostPower;
 import thecastertamamomod.util.CardStats;
 
@@ -45,6 +46,7 @@ public class CurseVoidCleft extends ManaCard {
 
         setMagic(SCALING, UPG_SCALING);
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

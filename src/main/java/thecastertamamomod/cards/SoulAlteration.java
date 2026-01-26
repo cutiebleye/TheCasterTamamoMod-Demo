@@ -37,7 +37,9 @@ public class SoulAlteration extends BaseCard {
         }
 
         if (!is_upgraded) {
-            this.addToBot(new ApplyPowerAction(p, p, new ArtsBoostPower(p, energyOnUse + stacks)));
+            if (energyOnUse > 0 ){
+                this.addToBot(new ApplyPowerAction(p, p, new ArtsBoostPower(p, energyOnUse + stacks)));
+            }
         } else {
             this.addToBot(new ApplyPowerAction(p, p, new ArtsBoostPower(p, energyOnUse + stacks + 1)));
         }

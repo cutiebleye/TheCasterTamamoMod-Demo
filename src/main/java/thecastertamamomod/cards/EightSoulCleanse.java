@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.vfx.combat.GiantFireEffect;
 import com.megacrit.cardcrawl.vfx.combat.ScreenOnFireEffect;
 import com.megacrit.cardcrawl.vfx.combat.WhirlwindEffect;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class EightSoulCleanse extends ManaCard {
@@ -47,6 +48,7 @@ public class EightSoulCleanse extends ManaCard {
 
         this.isMultiDamage = true;
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

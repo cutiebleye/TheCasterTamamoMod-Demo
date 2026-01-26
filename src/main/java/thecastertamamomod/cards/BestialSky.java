@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.LoseStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.powers.ArtsBoostPower;
 import thecastertamamomod.powers.LoseArtsPower;
 import thecastertamamomod.util.CardStats;
@@ -42,6 +43,7 @@ public class BestialSky extends ManaCard {
         setMagic(MAGIC, UPG_MAGIC);
         setManaCost(MANA_COST);
         this.isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

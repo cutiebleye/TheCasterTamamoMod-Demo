@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.powers.ArtsBoostPower;
 import thecastertamamomod.util.CardStats;
 
@@ -46,6 +47,7 @@ public class LandOfEternalBane extends ManaCard {
         setManaGain(MANA_GAIN, UPG_MANA_GAIN);
         setMagic(SCALING, UPG_SCALING);
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

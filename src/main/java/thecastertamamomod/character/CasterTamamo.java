@@ -283,4 +283,5 @@ public class CasterTamamo extends CustomPlayer {
         //Makes a new instance of your character class.
         return new CasterTamamo();
     }
+
 }

@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class FlameFan extends ManaCard {
@@ -36,6 +37,7 @@ public class FlameFan extends ManaCard {
 
         this.isMultiDamage = true;
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

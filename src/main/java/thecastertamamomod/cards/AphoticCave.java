@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.GainPowerEffect;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.powers.AphoticCavePower;
 import thecastertamamomod.powers.CasterComboPower;
 import thecastertamamomod.util.CardStats;
@@ -42,6 +43,7 @@ public class AphoticCave extends ManaCard {
         setManaCost(MANA_COST, UPG_MANA_COST);
 
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

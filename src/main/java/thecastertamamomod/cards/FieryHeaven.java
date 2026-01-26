@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.vfx.combat.ScreenOnFireEffect;
 import thecastertamamomod.actions.FieryHeavenAction;
 import thecastertamamomod.actions.FrigidHeavenAction;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class FieryHeaven extends ManaCard {
@@ -48,6 +49,7 @@ public class FieryHeaven extends ManaCard {
         setMagic(POWER_AMOUNT, UPG_POWER_AMOUNT);
 
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

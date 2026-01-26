@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.powers.SlowPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class CurseThunder extends ManaCard {
@@ -43,6 +44,7 @@ public class CurseThunder extends ManaCard {
 
         this.isMultiDamage = true;
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

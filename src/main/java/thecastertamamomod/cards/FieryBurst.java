@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.BlizzardEffect;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class FieryBurst extends ManaCard {
@@ -45,6 +46,7 @@ public class FieryBurst extends ManaCard {
         setMagic(HIT_AMOUNT, UPG_HIT_AMOUNT);
 
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

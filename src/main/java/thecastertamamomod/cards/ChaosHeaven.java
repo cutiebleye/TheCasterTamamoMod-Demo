@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.vfx.combat.WhirlwindEffect;
 import thecastertamamomod.actions.ChaosHeavenAction;
 import thecastertamamomod.actions.FrigidHeavenAction;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class ChaosHeaven extends ManaCard {
@@ -48,6 +49,7 @@ public class ChaosHeaven extends ManaCard {
         setMagic(POWER_AMOUNT, UPG_POWER_AMOUNT);
 
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

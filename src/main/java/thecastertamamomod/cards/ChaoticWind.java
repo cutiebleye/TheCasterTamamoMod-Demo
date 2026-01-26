@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.WhirlwindEffect;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class ChaoticWind extends ManaCard {
@@ -41,6 +42,7 @@ public class ChaoticWind extends ManaCard {
 
         this.isMultiDamage = true;
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override

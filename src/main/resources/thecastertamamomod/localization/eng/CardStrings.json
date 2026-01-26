@@ -155,7 +155,7 @@
 
   "${modID}:MercifulSky": {
     "NAME": "Mantric: Merciful Sky",
-    "DESCRIPTION": "Next turn, your ${modID}:Curse_Arts deal double damage. NL Costs !manaCost! ${modID}:MP."
+    "DESCRIPTION": "${modID}:Curse_Art. NL Next turn, your ${modID}:Curse_Arts deal double damage. NL Costs !manaCost! ${modID}:MP."
   },
 
   "${modID}:HighExposure": {
@@ -259,5 +259,10 @@
   "${modID}:AFoxsComfortCard": {
     "NAME": "A Fox's Comfort",
     "DESCRIPTION": "Whenever you play a ${modID}:Curse_Art, gain !M! Noble Phantasm Charge."
+  },
+
+  "${modID}:DakinitenMethods": {
+    "NAME": "Dakiniten Methods",
+    "DESCRIPTION": "Choose 1 of 3 ${modID}:Curse_Art cards to add to your hand. It costs 0 this turn. NL Exhaust."
   }
 }

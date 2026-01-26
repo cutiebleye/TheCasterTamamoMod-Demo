@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.BlizzardEffect;
 import thecastertamamomod.actions.FrigidHeavenAction;
 import thecastertamamomod.character.CasterTamamo;
+import thecastertamamomod.character.CustomTags;
 import thecastertamamomod.util.CardStats;
 
 public class FrigidHeaven extends ManaCard {
@@ -47,6 +48,7 @@ public class FrigidHeaven extends ManaCard {
         setMagic(POWER_AMOUNT, UPG_POWER_AMOUNT);
 
         isCurseArt = true;
+        tags.add(CustomTags.CURSE_ART);
     }
 
     @Override
